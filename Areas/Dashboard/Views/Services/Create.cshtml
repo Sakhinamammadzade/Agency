@@ -1,0 +1,57 @@
+﻿<style>
+    #icons span{
+        border:1px solid green;
+        padding:10px;
+    }
+</style>
+
+
+<form method="post">
+    <div class="container">
+
+        <div class="row">
+            <div class="input-group my-2">
+                <input name="Title" class="form-control" type="text" placeholder="Title" />
+            </div>
+            <div class="input-group my-2">
+                <input id="myInput" name="Icon" class="form-control" type="text" placeholder="Icon" />
+            </div>
+
+            <div id="icons">
+               <i atribute="fa-brands fa-google-plus-square" class="myIcon fa-brands fa-google-plus-square"></i>
+               <i atribute="fa-brands fa-facebook" class="myIcon fa-brands fa-facebook"></i>
+               <i atribute="fa-brands fa-twitter" class="myIcon fa-brands fa-twitter"></i>
+               <i atribute="fa-brands fa-instagram" class="myIcon fa-instagram fa-instagram"></i>
+               <i atribute="fa-brands fa-linkedin"  class="myIcon fa-brands fa-linkedin"></i>
+                <i atribute="fa-solid fa-heart"  class="myIcon fa-solid fa-heart"></i>
+            </div>
+
+
+
+
+
+
+
+            <div class="input-group my-2">
+                <input name="Description" class="form-control" type="text" placeholder="Description" />
+            </div>
+            <div class="input-group my-2">
+                <input type="submit" class="btn btn-outline-success" value="Create" />
+            </div>
+        </div>
+    </div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<script>
+
+    let myInput=document.getElementById("myInput")
+    $(document).on('click','.myIcon',function(e){
+        myInput.value=e.currentTarget.attributes.atribute.value
+        console.log(e.target)
+    })
+ 
+    
+</script>

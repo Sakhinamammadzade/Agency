@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Category>
+
+<a class="btn btn-outline-primary mb-2" href="/dashboard/category/create" >Create</a>
+
+<table class="table table-bordered table-striped table-dark">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.CategoryName</td>
+                <td>
+                  
+                    <a class = "btn btn-warning"  href="/dashboard/category/edit/@category.Id">Edit</a>
+                    <a class ="btn btn-danger" href ="/dashboard/category/delete/@category.Id">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

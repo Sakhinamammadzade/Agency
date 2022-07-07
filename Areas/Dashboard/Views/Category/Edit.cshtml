@@ -1,0 +1,21 @@
+﻿@model Category 
+
+
+@if (ViewBag.CategoryExist != null)
+{
+    <div class="btn btn-outline-danger">@ViewBag.CategoryExist</div>
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="container">
+
+        <div class="row">
+            <div class="input-group my-2">
+                <input value="@Model.CategoryName" name="CategoryName" id="title" class="form-control" type="text" placeholder="Name" />
+                <div />
+                <input type="submit" class="btn btn-outline-warning" value="Update" />
+            </div>
+        </div>
+</form>
+
+
+

@@ -1,0 +1,51 @@
+﻿@model Banner
+
+
+    @if (Model==null)
+    {
+       <a class="btn btn-success" href="/Dashboard/Banner/Create">Create</a>
+    }
+   
+
+@if(@Model!=null){
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Icon</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+     
+            <tr>
+
+                <th scope="row">@Model.Id</th>
+                <td>@Model.Title</td>
+                <td>
+                    <img class="img-fluid" width="150" src="~/@Model.PhotoUrl">
+                </td>
+                <td>
+                    <a href="/dashboard/banner/edit/@Model.Id" class="btn btn-outline-warning btn-sm">Edit</a>
+                    <a href="/dashboard/banner/delete/@Model.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+                    <a href="/dashboard/banner/detail/@Model.Id"  class="btn btn-outline-info btn-sm">Detail</a>
+
+                </td>
+
+            </tr>
+        
+
+
+
+    </tbody>
+</table>
+
+}
+else{
+    <div class="alert alert-info">
+        there was no information in the database
+    </div>
+}
+
+

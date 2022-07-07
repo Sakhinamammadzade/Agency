@@ -1,0 +1,29 @@
+﻿@model Banner
+<form method="post" enctype="multipart/form-data">
+    <div class="container">
+        <div class="row">
+            <div class="input-group my-2">
+                <input value="@Model.Title" name="Title" id="title" class="form-control" type="text" placeholder="Title" />
+            </div>
+            <div class="input-group my-2">
+                <input value="@Model.SubTitle"  name="SubTitle" id="title" class="form-control" type="text" placeholder="Title" />
+            </div>
+                <div class="input-group my-2">
+                    @ViewBag.PhotoError
+                <input  name="NewPhoto" id="title" class="form-control" type="file" placeholder="photo" />
+                <br/>
+                <input type="hidden" name="oldPhoto" value="@Model.PhotoUrl"/>
+                
+                <div class="input-group my-2">
+                <div class="card">
+                      <div class="card-body">
+                   <br/>
+                        <img  height="200" src="~/@Model.PhotoUrl"/>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <input type="submit" class="btn btn-outline-warning" value="Edit"/>
+        </div>
+    </div>
+</form>

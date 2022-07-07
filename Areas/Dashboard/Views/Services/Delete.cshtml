@@ -1,0 +1,9 @@
+﻿@model Services
+
+<h1>Silmek istediyinize eminsinizmi?</h1>
+<form method="post">
+      <input type="hidden" name="Id" value="@Model.Id"/>
+      <input class="btn btn-outline-danger" type="submit" value="Delete"/>
+</form>
+
+<a href="/dashboard/services" class="btn btn-outline-warning">Cancel</a>

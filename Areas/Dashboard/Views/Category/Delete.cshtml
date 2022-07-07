@@ -1,0 +1,10 @@
+﻿@if(ViewBag.CategoryError != null)
+{
+    <div class="alert alert-danger ">@ViewBag.CategoryError</div>
+}
+
+<h1>هل تريد الاستمرار؟</h1>
+<form method="post">
+    <input value="نعم" type="submit" class="btn btn-outline-danger" />
+</form>
+<a href="/dashboard/services" class="btn btn-outline-warning">لا</a>

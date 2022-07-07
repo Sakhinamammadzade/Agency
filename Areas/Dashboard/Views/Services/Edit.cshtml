@@ -1,0 +1,22 @@
+﻿@model Services
+
+<form method="post">
+    <div class="container">
+
+        <div class="row">
+            <input type="hidden" value="@Model.Id"/>
+            <div class="input-group">
+                <input name="Title" value="@Model.Title" class="form-control" type="text" placeholder="Title" />
+            </div>
+            <div class="input-group">
+                <input name="Icon" value="@Model.Icon" class="form-control" type="text" placeholder="Icon" />
+            </div>
+            <div class="input-group">
+                <input value="@Model.Description" name="Description" class="form-control" type="text" placeholder="Description" />
+            </div>
+            <div class="input-group">
+                <input type="submit" class="btn btn-outline-success" value="Create" />
+            </div>
+        </div>
+    </div>
+</form>
