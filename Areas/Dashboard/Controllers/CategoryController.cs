@@ -104,10 +104,8 @@ namespace Agency.Areas.Dashboard.Controllers
                     ViewBag.CategoryError = "Bilinmeyen sebebden error cixdi.Zehmet olmasa yeniden cehd edin";
                 }
 
-               
-                return View();
+               return View();
             }
-         
-        }
+         }
     }
 }

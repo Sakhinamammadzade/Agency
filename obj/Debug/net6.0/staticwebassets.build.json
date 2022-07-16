@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fh4PipT4D+kDUEtYFau3Jn3owpkqBauXHmwzbtdYGUU=",
+  "Hash": "cIJiix58MDtYJbPSk/1VWcyu7LKBsuKcxxHa6gKAJFY=",
   "Source": "Agency",
   "BasePath": "_content/Agency",
   "Mode": "Default",
@@ -32980,6 +32980,23 @@
       "OriginalItemSpec": "wwwroot\\image\\1f77b9a3-9b2c-4b83-9128-3c531e4f1231.jpg"
     },
     {
+      "Identity": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\image\\4b077947-27f0-4386-98fd-77f391c4f20a.jpg",
+      "SourceId": "Agency",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\",
+      "BasePath": "_content/Agency",
+      "RelativePath": "image/4b077947-27f0-4386-98fd-77f391c4f20a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\4b077947-27f0-4386-98fd-77f391c4f20a.jpg"
+    },
+    {
       "Identity": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\image\\7ce97811-a5d7-45e8-9872-7a99f0087580.png",
       "SourceId": "Agency",
       "SourceType": "Discovered",
@@ -33012,6 +33029,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\88ac65b2-5b01-4f06-abbf-10b19b7f5c55.jpg"
+    },
+    {
+      "Identity": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\image\\c3491a66-d548-4e8f-9072-7f1b3fb8073c.png",
+      "SourceId": "Agency",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\",
+      "BasePath": "_content/Agency",
+      "RelativePath": "image/c3491a66-d548-4e8f-9072-7f1b3fb8073c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\c3491a66-d548-4e8f-9072-7f1b3fb8073c.png"
     },
     {
       "Identity": "D:\\source\\repos\\Agency\\Agency\\wwwroot\\image\\e61bda77-030e-4a12-adde-753b2bdf6337.jpg",

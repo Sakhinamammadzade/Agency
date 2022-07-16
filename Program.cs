@@ -30,8 +30,8 @@ var app = builder.Build();
 //app.UseRouting();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthentication();
-app.UseAuthorization();
+app.UseAuthentication();//kimlik dogrulama
+app.UseAuthorization();//yetki vermek ,icaze vermek
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(

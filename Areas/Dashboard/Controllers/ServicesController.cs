@@ -33,7 +33,7 @@ namespace Agency.Areas.Dashboard.Controllers
             _context.Services.Add(services);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
-            return View();
+           
         }
         public IActionResult Edit(int id)
         {
@@ -54,7 +54,7 @@ namespace Agency.Areas.Dashboard.Controllers
             return View(services);
         }
 
-        [HttpPost]
+        [HttpPost]  
         public IActionResult Delete(int id,Services services)
         {
             _context.Services.Remove(services);
